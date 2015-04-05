@@ -10,6 +10,7 @@
 #import "AFNetworking.h"
 
 #import "VFTDataManager.h"
+#import "VFTUtilsManager.h"
 
 #import "VFTConstStr.h"
 
@@ -18,9 +19,8 @@
 + (void)getUserDataNM {
     [[AFHTTPRequestOperationManager manager] GET:kAPI_URL parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [[VFTDataManager getInstance] castServResponseWithUserList:responseObject];
-        NSLog(@"good");
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
+        [[VFTUtilsManager getInstance] showAlertWithTitleString:kALERT_TITLE_ERROR andMessage:[error localizedDescription]];
     }];
 }
 

@@ -24,4 +24,10 @@
  */
 - (void)hideLoadingView;
 
+/** Method for showing alert with 
+ @param alertTitle String for alert title
+ @param isDim      
+ */
+- (void)showAlertWithTitleString:(NSString *)titleStr andMessage:(NSString *)message;
+
 @end

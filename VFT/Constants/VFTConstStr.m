@@ -11,6 +11,9 @@
 NSString *const kAPI_URL = @"https://api.github.com/users";
 
 NSString *const kALERT_TITLE_WAIT = @"Plese wait...";
+NSString *const kALERT_TITLE_ERROR = @"Error";
+NSString *const kALERT_BTN_CANCEL_TITLE = @"Close";
+
 NSString *const kLOADER_TITLE_WAIT = @"Loading...";
 
 NSString *const kNOTIF_USER_DATA_RECEIVED = @"userDataRecieved";

@@ -7,6 +7,7 @@
 //
 
 #import "VFTUtilsManager.h"
+#import "VFTConstStr.h"
 
 @interface VFTUtilsManager ()
 
@@ -48,6 +49,18 @@
 - (void)hideLoadingView {
     [_HUD hide:YES afterDelay:1.f];
     [_HUD removeFromSuperview];
+}
+
+#pragma mark - methods for showing error discription in UIAlertView
+
+- (void)showAlertWithTitleString:(NSString *)titleStr andMessage:(NSString *)message {
+    [self hideLoadingView];
+    UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:titleStr
+                                                         message:message
+                                                        delegate:self
+                                               cancelButtonTitle:kALERT_BTN_CANCEL_TITLE
+                                               otherButtonTitles:nil];
+    [errorAlert show];
 }
 
 @end
