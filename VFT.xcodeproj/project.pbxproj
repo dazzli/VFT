@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B053C2F1ACB65AF004E5543 /* VFTUsersTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B053C2E1ACB65AF004E5543 /* VFTUsersTVController.m */; };
+		2B57F6321AB7B06C00ADF788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57F6311AB7B06C00ADF788 /* main.m */; };
+		2B57F6351AB7B06C00ADF788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57F6341AB7B06C00ADF788 /* AppDelegate.m */; };
+		2B57F6381AB7B06C00ADF788 /* VFT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B57F6361AB7B06C00ADF788 /* VFT.xcdatamodeld */; };
+		2B57F63E1AB7B06C00ADF788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B57F63C1AB7B06C00ADF788 /* Main.storyboard */; };
+		2B57F6401AB7B06C00ADF788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B57F63F1AB7B06C00ADF788 /* Images.xcassets */; };
+		2B57F6431AB7B06C00ADF788 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B57F6411AB7B06C00ADF788 /* LaunchScreen.xib */; };
+		2B57F6601AB7BF4200ADF788 /* VFTUserTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57F65F1AB7BF4200ADF788 /* VFTUserTVCell.m */; };
+		2B81FDEC1AD139A000AE8391 /* VFTConstStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81FDEB1AD139A000AE8391 /* VFTConstStr.m */; };
+		2BEDF23E1AD18F380000DBEA /* VFTDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDF23D1AD18F380000DBEA /* VFTDataManager.m */; };
+		2BEDF2441AD18F740000DBEA /* VFTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDF2431AD18F740000DBEA /* VFTUser.m */; };
+		2BEDF2471AD18F7D0000DBEA /* VFTNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDF2461AD18F7D0000DBEA /* VFTNetworkManager.m */; };
+		2BEDF24A1AD18FA00000DBEA /* VFTUtilsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDF2491AD18FA00000DBEA /* VFTUtilsManager.m */; };
+		5728AF3A89F47E30CE052AD8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D462B15148663F5D542E3F5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B053C2D1ACB65AF004E5543 /* VFTUsersTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VFTUsersTVController.h; path = Base.lproj/Home/VFTUsersTVController.h; sourceTree = "<group>"; };
+		2B053C2E1ACB65AF004E5543 /* VFTUsersTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VFTUsersTVController.m; path = Base.lproj/Home/VFTUsersTVController.m; sourceTree = "<group>"; };
+		2B57F62C1AB7B06C00ADF788 /* VFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B57F6301AB7B06C00ADF788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B57F6311AB7B06C00ADF788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B57F6331AB7B06C00ADF788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B57F6341AB7B06C00ADF788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B57F6371AB7B06C00ADF788 /* VFT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VFT.xcdatamodel; sourceTree = "<group>"; };
+		2B57F63D1AB7B06C00ADF788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B57F63F1AB7B06C00ADF788 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B57F6421AB7B06C00ADF788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2B57F65E1AB7BF4200ADF788 /* VFTUserTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VFTUserTVCell.h; path = Base.lproj/Home/CustomElement/VFTUserTVCell.h; sourceTree = "<group>"; };
+		2B57F65F1AB7BF4200ADF788 /* VFTUserTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VFTUserTVCell.m; path = Base.lproj/Home/CustomElement/VFTUserTVCell.m; sourceTree = "<group>"; };
+		2B81FDEA1AD139A000AE8391 /* VFTConstStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VFTConstStr.h; path = Constants/VFTConstStr.h; sourceTree = "<group>"; };
+		2B81FDEB1AD139A000AE8391 /* VFTConstStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VFTConstStr.m; path = Constants/VFTConstStr.m; sourceTree = "<group>"; };
+		2BEDF23C1AD18F380000DBEA /* VFTDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VFTDataManager.h; path = Managers/DataManager/VFTDataManager.h; sourceTree = "<group>"; };
+		2BEDF23D1AD18F380000DBEA /* VFTDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VFTDataManager.m; path = Managers/DataManager/VFTDataManager.m; sourceTree = "<group>"; };
+		2BEDF2421AD18F740000DBEA /* VFTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VFTUser.h; path = Managers/DataManager/VFTUser/VFTUser.h; sourceTree = "<group>"; };
+		2BEDF2431AD18F740000DBEA /* VFTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VFTUser.m; path = Managers/DataManager/VFTUser/VFTUser.m; sourceTree = "<group>"; };
+		2BEDF2451AD18F7D0000DBEA /* VFTNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VFTNetworkManager.h; path = Managers/NetworkManager/VFTNetworkManager.h; sourceTree = "<group>"; };
+		2BEDF2461AD18F7D0000DBEA /* VFTNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VFTNetworkManager.m; path = Managers/NetworkManager/VFTNetworkManager.m; sourceTree = "<group>"; };
+		2BEDF2481AD18FA00000DBEA /* VFTUtilsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VFTUtilsManager.h; path = Managers/UtilsManager/VFTUtilsManager.h; sourceTree = "<group>"; };
+		2BEDF2491AD18FA00000DBEA /* VFTUtilsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VFTUtilsManager.m; path = Managers/UtilsManager/VFTUtilsManager.m; sourceTree = "<group>"; };
+		62514D8C1050A5E86A4A7A3E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9D462B15148663F5D542E3F5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04A6E39790EE5C9CB35A012 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B57F6291AB7B06C00ADF788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5728AF3A89F47E30CE052AD8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B053C2B1ACB63E2004E5543 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		2B053C2C1ACB641E004E5543 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2B053C311ACB67B7004E5543 /* VFTDataManager */,
+				2B053C321ACB67C2004E5543 /* VFTNetworkManager */,
+				2BEDF23B1AD18EDF0000DBEA /* VFTUtilsManager */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		2B053C301ACB6728004E5543 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2B81FDEA1AD139A000AE8391 /* VFTConstStr.h */,
+				2B81FDEB1AD139A000AE8391 /* VFTConstStr.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		2B053C311ACB67B7004E5543 /* VFTDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDF23C1AD18F380000DBEA /* VFTDataManager.h */,
+				2BEDF23D1AD18F380000DBEA /* VFTDataManager.m */,
+				2B81FDF31AD1434900AE8391 /* VFTUser */,
+			);
+			name = VFTDataManager;
+			sourceTree = "<group>";
+		};
+		2B053C321ACB67C2004E5543 /* VFTNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDF2451AD18F7D0000DBEA /* VFTNetworkManager.h */,
+				2BEDF2461AD18F7D0000DBEA /* VFTNetworkManager.m */,
+			);
+			name = VFTNetworkManager;
+			sourceTree = "<group>";
+		};
+		2B57F6231AB7B06C00ADF788 = {
+			isa = PBXGroup;
+			children = (
+				2B57F62E1AB7B06C00ADF788 /* VFT */,
+				2B57F62D1AB7B06C00ADF788 /* Products */,
+				7FA997D405B0A6589CC01F35 /* Pods */,
+				CB83B3F5177FE26E1D8F0645 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B57F62D1AB7B06C00ADF788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B57F62C1AB7B06C00ADF788 /* VFT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B57F62E1AB7B06C00ADF788 /* VFT */ = {
+			isa = PBXGroup;
+			children = (
+				2B57F6331AB7B06C00ADF788 /* AppDelegate.h */,
+				2B57F6341AB7B06C00ADF788 /* AppDelegate.m */,
+				2B57F63C1AB7B06C00ADF788 /* Main.storyboard */,
+				2B57F6581AB7BAC100ADF788 /* UI */,
+				2B053C2C1ACB641E004E5543 /* Managers */,
+				2B053C301ACB6728004E5543 /* Constants */,
+				2B57F63F1AB7B06C00ADF788 /* Images.xcassets */,
+				2B57F6411AB7B06C00ADF788 /* LaunchScreen.xib */,
+				2B57F6361AB7B06C00ADF788 /* VFT.xcdatamodeld */,
+				2B57F62F1AB7B06C00ADF788 /* Supporting Files */,
+			);
+			path = VFT;
+			sourceTree = "<group>";
+		};
+		2B57F62F1AB7B06C00ADF788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B57F6301AB7B06C00ADF788 /* Info.plist */,
+				2B57F6311AB7B06C00ADF788 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B57F6581AB7BAC100ADF788 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B57F6591AB7BACB00ADF788 /* VFTUsersTVController */,
+				2B053C2B1ACB63E2004E5543 /* New Group */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2B57F6591AB7BACB00ADF788 /* VFTUsersTVController */ = {
+			isa = PBXGroup;
+			children = (
+				2B053C2D1ACB65AF004E5543 /* VFTUsersTVController.h */,
+				2B053C2E1ACB65AF004E5543 /* VFTUsersTVController.m */,
+				2B57F65D1AB7BEAD00ADF788 /* VFTUserTVCell */,
+			);
+			name = VFTUsersTVController;
+			sourceTree = "<group>";
+		};
+		2B57F65D1AB7BEAD00ADF788 /* VFTUserTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				2B57F65E1AB7BF4200ADF788 /* VFTUserTVCell.h */,
+				2B57F65F1AB7BF4200ADF788 /* VFTUserTVCell.m */,
+			);
+			name = VFTUserTVCell;
+			sourceTree = "<group>";
+		};
+		2B81FDF31AD1434900AE8391 /* VFTUser */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDF2421AD18F740000DBEA /* VFTUser.h */,
+				2BEDF2431AD18F740000DBEA /* VFTUser.m */,
+			);
+			name = VFTUser;
+			sourceTree = "<group>";
+		};
+		2BEDF23B1AD18EDF0000DBEA /* VFTUtilsManager */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDF2481AD18FA00000DBEA /* VFTUtilsManager.h */,
+				2BEDF2491AD18FA00000DBEA /* VFTUtilsManager.m */,
+			);
+			name = VFTUtilsManager;
+			sourceTree = "<group>";
+		};
+		7FA997D405B0A6589CC01F35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D04A6E39790EE5C9CB35A012 /* Pods.debug.xcconfig */,
+				62514D8C1050A5E86A4A7A3E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB83B3F5177FE26E1D8F0645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D462B15148663F5D542E3F5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B57F62B1AB7B06C00ADF788 /* VFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B57F6521AB7B06D00ADF788 /* Build configuration list for PBXNativeTarget "VFT" */;
+			buildPhases = (
+				A0285DD9A56DC54376898493 /* Check Pods Manifest.lock */,
+				2B57F6281AB7B06C00ADF788 /* Sources */,
+				2B57F6291AB7B06C00ADF788 /* Frameworks */,
+				2B57F62A1AB7B06C00ADF788 /* Resources */,
+				309AB86977E11AC0FE5C8619 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VFT;
+			productName = VFT;
+			productReference = 2B57F62C1AB7B06C00ADF788 /* VFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B57F6241AB7B06C00ADF788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Valentyn Fesenko";
+				TargetAttributes = {
+					2B57F62B1AB7B06C00ADF788 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B57F6271AB7B06C00ADF788 /* Build configuration list for PBXProject "VFT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B57F6231AB7B06C00ADF788;
+			productRefGroup = 2B57F62D1AB7B06C00ADF788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B57F62B1AB7B06C00ADF788 /* VFT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B57F62A1AB7B06C00ADF788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B57F63E1AB7B06C00ADF788 /* Main.storyboard in Resources */,
+				2B57F6431AB7B06C00ADF788 /* LaunchScreen.xib in Resources */,
+				2B57F6401AB7B06C00ADF788 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		309AB86977E11AC0FE5C8619 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0285DD9A56DC54376898493 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B57F6281AB7B06C00ADF788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEDF2441AD18F740000DBEA /* VFTUser.m in Sources */,
+				2B57F6601AB7BF4200ADF788 /* VFTUserTVCell.m in Sources */,
+				2BEDF2471AD18F7D0000DBEA /* VFTNetworkManager.m in Sources */,
+				2B57F6351AB7B06C00ADF788 /* AppDelegate.m in Sources */,
+				2BEDF24A1AD18FA00000DBEA /* VFTUtilsManager.m in Sources */,
+				2B81FDEC1AD139A000AE8391 /* VFTConstStr.m in Sources */,
+				2BEDF23E1AD18F380000DBEA /* VFTDataManager.m in Sources */,
+				2B57F6321AB7B06C00ADF788 /* main.m in Sources */,
+				2B053C2F1ACB65AF004E5543 /* VFTUsersTVController.m in Sources */,
+				2B57F6381AB7B06C00ADF788 /* VFT.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B57F63C1AB7B06C00ADF788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B57F63D1AB7B06C00ADF788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B57F6411AB7B06C00ADF788 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B57F6421AB7B06C00ADF788 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B57F6501AB7B06D00ADF788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B57F6511AB7B06D00ADF788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B57F6531AB7B06D00ADF788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04A6E39790EE5C9CB35A012 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B57F6541AB7B06D00ADF788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62514D8C1050A5E86A4A7A3E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VFT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B57F6271AB7B06C00ADF788 /* Build configuration list for PBXProject "VFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B57F6501AB7B06D00ADF788 /* Debug */,
+				2B57F6511AB7B06D00ADF788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B57F6521AB7B06D00ADF788 /* Build configuration list for PBXNativeTarget "VFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B57F6531AB7B06D00ADF788 /* Debug */,
+				2B57F6541AB7B06D00ADF788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B57F6361AB7B06C00ADF788 /* VFT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B57F6371AB7B06C00ADF788 /* VFT.xcdatamodel */,
+			);
+			currentVersion = 2B57F6371AB7B06C00ADF788 /* VFT.xcdatamodel */;
+			path = VFT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B57F6241AB7B06C00ADF788 /* Project object */;
+}
